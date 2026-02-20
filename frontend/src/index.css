@@ -1,0 +1,41 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+/* Dropzone styling overrides */
+.MuiDropzoneArea-root {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  backdrop-filter: blur(4px);
+  border: 2px dashed #888 !important;
+  border-radius: 16px !important;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.MuiDropzoneArea-root:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.3), 0 0 10px rgba(0, 0, 0, 0.1);
+  border-color: #999 !important;
+}
+
+.MuiDropzoneArea-text {
+  color: #333 !important;
+  font-size: 16px !important;
+  font-weight: 500;
+}
+
+.MuiDropzoneArea-icon {
+  color: #555 !important;
+  font-size: 48px !important;
+}
+
